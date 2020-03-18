@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/man" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"
+            android:text="username"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/scenery" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/comment" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/share" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

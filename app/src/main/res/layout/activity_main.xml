@@ -52,7 +52,7 @@
         <RelativeLayout
             android:id="@+id/relLayout2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="559dp"
             android:layout_below="@+id/relLayout1">
 
             <include layout="@layout/layout_centre_page" />
