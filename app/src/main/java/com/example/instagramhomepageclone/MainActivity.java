@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         models.add(new Model("joey",R.drawable.man,R.drawable.game,R.drawable.heart,R.drawable.comment,R.drawable.share));
         models.add(new Model("monica",R.drawable.woman,R.drawable.scenery,R.drawable.redheart,R.drawable.comment,R.drawable.share));
         models.add(new Model("pheobe",R.drawable.woman,R.drawable.building,R.drawable.heart,R.drawable.comment,R.drawable.share));
-        models.add(new Model("ross",R.drawable.man,R.drawable.food,R.drawable.redheart,R.drawable.comment,R.drawable.share));
-        models.add(new Model("rachel",R.drawable.woman,R.drawable.beauty,R.drawable.heart,R.drawable.comment,R.drawable.share));
+        models.add(new Model("ross",R.drawable.man,R.drawable.food,R.drawable.heart,R.drawable.comment,R.drawable.share));
+        models.add(new Model("rachel",R.drawable.woman,R.drawable.beauty,R.drawable.redheart,R.drawable.comment,R.drawable.share));
         models.add(new Model("chandler",R.drawable.man,R.drawable.car,R.drawable.redheart,R.drawable.comment,R.drawable.share));
 
         myAdapter = new MyAdapter(this,models);
