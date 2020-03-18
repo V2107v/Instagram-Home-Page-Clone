@@ -7,30 +7,60 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/relLayout1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/relLayout1">
-            <include layout="@layout/layout_top_tabs"/>
+            android:layout_height="50dp"
+            android:background="@drawable/bottom_border">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="370dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/send" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/camera" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="INSTAGRAM"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/relLayout2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/relLayout2"
             android:layout_below="@+id/relLayout1">
-            <include layout="@layout/layout_centre_page"/>
+
+            <include layout="@layout/layout_centre_page" />
 
         </RelativeLayout>
 
 
-            <include layout="@layout/layout_bottom_view" />
-
-
+        <include layout="@layout/layout_bottom_view" />
 
 
     </RelativeLayout>
