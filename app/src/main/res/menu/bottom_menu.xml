@@ -26,8 +26,8 @@
     </item>
 
     <item
-        android:id="@+id/profile"
-        android:icon="@drawable/profile"
+        android:id="@+id/user"
+        android:icon="@drawable/user"
         android:title="">
     </item>
 

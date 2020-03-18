@@ -19,18 +19,18 @@
 
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/chat"
                 android:layout_width="30dp"
                 android:layout_height="25dp"
-                android:layout_marginLeft="370dp"
+                android:layout_marginStart="370dp"
                 android:layout_marginTop="15dp"
                 app:srcCompat="@drawable/send" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/camera"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 app:srcCompat="@drawable/camera" />
 
@@ -38,7 +38,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="casual"
                 android:gravity="center"
