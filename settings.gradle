@@ -1,0 +1,2 @@
+rootProject.name='Instagram Home Page Clone'
+include ':app'
